@@ -7,9 +7,9 @@ special_simbols = ['!','"','#','$','%','&','(',')','*','+','-','.','/',':',';','
 
 password = []
 
-n = int(input('Введите какое количество символов будет в пароле: '))
+z = int(input('Введите какое количество символов будет в пароле: '))
 
-while len(password) < n:
+while len(password) < z:
     
     password.append(random.choice(low_case))
     password.append(random.choice(upper_case))
